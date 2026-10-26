@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace MeaningOverlay.Services;
 
-public record AppSettings(string ApiKey = "AIzaSyDCs78BJYoCMiB4qlH4ny6s1CCdcdqpoFk", bool DetailedMode = false, string PrimaryModel = "pollinations");
+public record AppSettings(string ApiKey = "<API kEY>", bool DetailedMode = false, string PrimaryModel = "pollinations");
 
 /// <summary>
 /// Persists settings to %AppData%\MeaningOverlay\settings.json
